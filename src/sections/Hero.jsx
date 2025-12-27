@@ -12,7 +12,11 @@ export default function Hero() {
         {/* Billede med forskudt ramme */}
         <div className="relative w-72 h-96 shrink-0">
           {/* Selve billedet */}
-          <div className="w-full h-full bg-blackCV rounded-none"></div>
+          <img
+            src="https://res.cloudinary.com/dnkqhm27a/image/upload/v1766828269/ai_Thomas_1_bkazbk.jpg"
+            alt="Thomas Fredborg portræt"
+            className="w-full h-full object-cover rounded-none"
+          />
 
           {/* Forskudt ramme */}
           <div className="absolute bottom-3 left-3 w-full h-full border border-blackCV rounded-none"></div>
