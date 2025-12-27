@@ -4,31 +4,31 @@ import { useGesture } from '@use-gesture/react';
 
 const DEFAULT_IMAGES = [
   {
-    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/v1766829181/pinetree_image_3_glddt8.webp',
+    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/f_auto,q_auto/v1766829181/pinetree_image_3_glddt8.webp',
     alt: 'Pinetree Golf, Logo and Packaging Design'
   },
   {
-    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/v1766829330/pinetree_image_2_ietxhy.webp',
+    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/f_auto,q_auto/v1766829330/pinetree_image_2_ietxhy.webp',
     alt: 'Pinetree Golf, Logo and Packaging Design'
   },
   {
-    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/v1766829792/trope-%C3%B8ko-dadler-milj%C3%B8-1_y0a6mf.webp',
+    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/f_auto,q_auto/v1766829792/trope-%C3%B8ko-dadler-milj%C3%B8-1_y0a6mf.webp',
     alt: 'The Whole Company, Packaging Design'
   },
   {
-    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/v1766830385/ChatGPT_Image_27._dec._2025_11.08.32_ezfwkn.webp',
+    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/f_auto,q_auto/v1766830385/ChatGPT_Image_27._dec._2025_11.08.32_ezfwkn.webp',
     alt: 'The Whole Company, Packaging Design'
   },
   {
-    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/v1766830770/ChatGPT_Image_27._dec._2025_11.18.43_mucwgs.webp',
+    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/f_auto,q_auto/v1766830770/ChatGPT_Image_27._dec._2025_11.18.43_mucwgs.webp',
     alt: 'Pisiffik, UI/UX Design'
   },
   {
-    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/v1766831455/Sk%C3%A6rmbillede_2025-12-27_kl._11.21.18_xkd1mf.png',
+    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/f_auto,q_auto/v1766831455/Sk%C3%A6rmbillede_2025-12-27_kl._11.21.18_xkd1mf.png',
     alt: 'Unlimit Group, Webdesign'
   },
   {
-    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/v1766832373/ChatGPT_Image_27._dec._2025_11.45.39_eklinq.webp',
+    src: 'https://res.cloudinary.com/dnkqhm27a/image/upload/f_auto,q_auto/v1766832373/ChatGPT_Image_27._dec._2025_11.45.39_eklinq.webp',
     alt: 'FLID, Trykte medier'
   }
 ];
