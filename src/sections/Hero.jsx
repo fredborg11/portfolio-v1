@@ -5,12 +5,12 @@ export default function Hero() {
   return (
     <section 
       id="home" 
-      className="py-24 px-4 md:px-8 lg:px-16 bg-offWhiteCV text-blackCV"
+      className="pt-12 pb-20 px-4 md:px-8 lg:px-16 bg-offWhiteCV text-blackCV"
     >
-      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-24">
+      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-16 md:gap-24">
 
         {/* Billede med forskudt ramme */}
-        <div className="relative w-72 h-96 shrink-0">
+        <div className="relative w-56 h-72 md:w-72 md:h-96 shrink-0 mx-auto md:mx-0">
           {/* Selve billedet */}
           <img
             src="https://res.cloudinary.com/dnkqhm27a/image/upload/v1766828269/ai_Thomas_1_bkazbk.jpg"
@@ -39,7 +39,7 @@ export default function Hero() {
           </p>
 
           {/* --- CTA KNAPPER --- */}
-          <div className="pt-4 flex flex-col sm:flex-row gap-3">
+          <div className="pt-2 flex flex-col sm:flex-row gap-2">
 
             {/* telefon */}
             <a

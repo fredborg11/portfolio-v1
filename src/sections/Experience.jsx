@@ -39,7 +39,7 @@ export default function Experience() {
   }
 
   return (
-    <section id="experience" className="py-32 px-4 md:px-8 lg:px-16 bg-offWhiteCV text-blackCV">
+    <section id="experience" className="py-16 md:py-32 px-4 md:px-8 lg:px-16 bg-offWhiteCV text-blackCV">
       <div className="max-w-5xl mx-auto space-y-10">
 
         {/* --- TITLE --- */}

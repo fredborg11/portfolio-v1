@@ -22,7 +22,7 @@ export default function MenuOverlay({ onClose }) {
         {/* Luk-knap */}
         <button
           onClick={onClose}
-          className="absolute top-6 right-6 text-4xl font-light hover:opacity-70 transition"
+          className="absolute top-10 right-6 text-4xl md:top-6 font-light hover:opacity-70 transition"
           aria-label="Luk menu"
         >
           ×

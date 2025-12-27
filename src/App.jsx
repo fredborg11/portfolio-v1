@@ -35,7 +35,7 @@ export default function App() {
       <ScrollVelocity
         texts={["Hurtig til at omdanne idéer til færdige løsninger · Naturlig teamplayer der løfter, motiverer og går forrest ·"]}
         velocity={-80}
-        className="text-4xl font-light tracking-widest text-blackCV"
+        className="text-[2rem] sm:text-4xl font-light tracking-widest text-blackCV"
         />
       <div className="w-full h-[1px] bg-[#1a1d1f] my-4"></div>
       <Skills />

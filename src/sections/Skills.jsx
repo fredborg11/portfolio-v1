@@ -43,7 +43,7 @@ export default function Skills() {
   ]
 
   return (
-    <section id="skills" className="py-24 bg-offWhiteCV text-blackCV">
+    <section id="skills" className="py-16 md:py-32 px-4 bg-offWhiteCV text-blackCV">
       <div className="max-w-5xl mx-auto space-y-16">
 
         <h2 className="text-sm font-extrabold uppercase my-10">
