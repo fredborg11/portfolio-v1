@@ -24,10 +24,10 @@ export default function Hero() {
 
         <div className="max-w-xl space-y-6">
 
-          <h1 className="text-6xl font-extrabold uppercase tracking-tight leading-none">
+          <h1 className="text-5xl md:text-6xl font-extrabold uppercase tracking-tight leading-none">
             Kreativ,
             <br />
-            <RotatingWord words={['strategisk', 'visuel', 'analytisk']} />
+            <RotatingWord words={['strategisk', 'visuel', 'analytisk', 'iderig', 'skarp', 'reflekteret', 'fokuseret']} />
             <br />
             art director
           </h1>
