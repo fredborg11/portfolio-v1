@@ -33,9 +33,7 @@ export default function Hero() {
           </h1>
 
           <p className="antialiased text-lg tracking-tight opacity-90">
-            – med styrke i visuel retning og brandopbygning —
-            jeg omsætter idéer til konkrete løsninger med ro, struktur og
-            kreativt overblik.
+            Med styrke i visuel retning og brandopbygning. Jeg omsætter idéer til konkrete løsninger med ro, struktur og kreativt overblik.
           </p>
 
           {/* --- CTA KNAPPER --- */}

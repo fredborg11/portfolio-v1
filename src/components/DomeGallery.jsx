@@ -34,8 +34,8 @@ const DEFAULT_IMAGES = [
 ];
 
 const DEFAULTS = {
-  maxVerticalRotationDeg: 5,
-  dragSensitivity: 30,
+  maxVerticalRotationDeg: 3,
+  dragSensitivity: 18,
   enlargeTransitionMs: 400,
   segments: 24
 };
@@ -120,7 +120,7 @@ export default function DomeGallery({
   dragSensitivity = DEFAULTS.dragSensitivity,
   enlargeTransitionMs = DEFAULTS.enlargeTransitionMs,
   segments = DEFAULTS.segments,
-  dragDampening = 3,
+  dragDampening = 1.2,
   openedImageWidth = '600px',
   openedImageHeight = '600px',
   imageBorderRadius = '20px',
@@ -270,14 +270,14 @@ export default function DomeGallery({
 
   const startInertia = useCallback(
     (vx, vy) => {
-      const MAX_V = 1.4;
-      let vX = clamp(vx, -MAX_V, MAX_V) * 80;
-      let vY = clamp(vy, -MAX_V, MAX_V) * 80;
+      const MAX_V = 1.0;
+      let vX = clamp(vx, -MAX_V, MAX_V) * 60;
+      let vY = clamp(vy, -MAX_V, MAX_V) * 60;
       let frames = 0;
       const d = clamp(dragDampening ?? 0.6, 0, 1);
-      const frictionMul = 0.94 + 0.055 * d;
-      const stopThreshold = 0.015 - 0.01 * d;
-      const maxFrames = Math.round(90 + 270 * d);
+      const frictionMul = 0.88 + 0.04 * d;
+      const stopThreshold = 0.02 - 0.01 * d;
+      const maxFrames = Math.round(60 + 140 * d);
       const step = () => {
         vX *= frictionMul;
         vY *= frictionMul;
@@ -289,8 +289,8 @@ export default function DomeGallery({
           inertiaRAF.current = null;
           return;
         }
-        const nextX = clamp(rotationRef.current.x - vY / 200, -maxVerticalRotationDeg, maxVerticalRotationDeg);
-        const nextY = wrapAngleSigned(rotationRef.current.y + vX / 200);
+        const nextX = clamp(rotationRef.current.x - vY / 180, -maxVerticalRotationDeg, maxVerticalRotationDeg);
+        const nextY = wrapAngleSigned(rotationRef.current.y + vX / 180);
         rotationRef.current = { x: nextX, y: nextY };
         applyTransform(nextX, nextY);
         inertiaRAF.current = requestAnimationFrame(step);
