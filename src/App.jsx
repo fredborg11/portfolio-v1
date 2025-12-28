@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import Hero from './sections/Hero'
 import Skills from './sections/Skills'
 import Quote from './sections/Quote'
@@ -43,6 +44,7 @@ export default function App() {
       <Experience />
       <Footer />
       <CoffeeCorner />
+      <SpeedInsights />
     </div>
   )
 }
