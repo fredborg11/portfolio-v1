@@ -41,7 +41,7 @@ export default function Hero() {
 
             {/* telefon */}
             <a
-              href="tel:+4512345678"
+              href="tel:+4528108213"
               className="
                 px-6 py-3 
                 bg-blackCV text-offWhiteCV 
@@ -57,7 +57,7 @@ export default function Hero() {
 
             {/* mail */}
             <a
-              href="mailto:thomas@eksempel.dk"
+              href="mailto:fredborg11@gmail.com"
               className="
                 px-6 py-3 
                 border border-blackCV 
