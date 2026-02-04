@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import DomeGallery from '../components/DomeGallery';
 import Logo from '../components/Logo';
 import MenuOverlay from '../components/MenuOverlay';
@@ -41,6 +42,7 @@ export default function Galleri() {
       </div>
       <DragHint />
       <CoffeeCorner />
+      <Analytics />
     </section>
   );
 }
